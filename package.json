@@ -1,0 +1,22 @@
+{
+  "name": "find-quick-wins",
+  "version": "1.0.0",
+  "description": "CLI tool to identify quick-win contribution opportunities in GitHub repos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "find-quick-wins": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "ora": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
