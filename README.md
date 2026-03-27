@@ -4,14 +4,16 @@ A CLI tool that analyzes any public GitHub repository and surfaces **quick-win c
 
 ## Quick Start
 
+After setting up your .env, run:
+
 ```bash
-npx find-quick-wins https://github.com/expressjs/express
+npm run start https://github.com/expressjs/express
 ```
 
 ## Example Output
 
 ```
-$ npx find-quick-wins https://github.com/expressjs/express
+$ npm run start https://github.com/expressjs/express
 
   🔍 OSS Quick Wins Finder
 
